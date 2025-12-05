@@ -8,5 +8,5 @@ while(i<=15)//i=1<=15 true
     {
         console.log(i);//2,4,6,8...14
     } 
-    i++ 
+    i++ ;
 }
