@@ -1,4 +1,4 @@
-var char=$
+var char="$"
 
 if(char>='A' && char<='Z' || char>='a' && char<='z')//alphabet
 {
