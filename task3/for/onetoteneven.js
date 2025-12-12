@@ -1,13 +1,10 @@
-var limit=20;
+var limit=10;
 
-var i=2;
-
-while(i<=limit)
+for(let i=1;i<=limit;i++)
 {
     if(i%2==0)
     {
         console.log(i);
+        
     }
-
-    i++;
 }
