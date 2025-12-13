@@ -17,7 +17,9 @@ function isPrime(num)
 }
 
 
-console.log(isPrime(11));
+console.log(isPrime(5));
+console.log(isPrime(7));
+console.log(isPrime(9));
 
 
 
