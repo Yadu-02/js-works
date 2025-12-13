@@ -11,6 +11,8 @@ function sayHi(){
 
 function greetings(){
     console.log("Good Morning");
+    console.log("Morning");
+    
     
 
 }
@@ -20,5 +22,12 @@ function greetings(){
 sayHello()
 sayHello()
 sayHi()
-sayHi()
 greetings()
+greetings()
+greetings()
+
+
+function divBy3(num)
+{
+    i
+}
