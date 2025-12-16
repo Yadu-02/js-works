@@ -10,11 +10,8 @@ for(let r=1;r<=6;r++)
         
     }
     for(let c=1;c<=r;c++)
-        {
-            pattern+="*\t\t"
-        }
-    
-    
-    console.log(pattern);
-    
+    {
+        pattern+=`${0+r}\t\t`
+    }    
+    console.log(pattern);   
 }
