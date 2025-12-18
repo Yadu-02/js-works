@@ -2,24 +2,20 @@ function removeDuplicate(word)
 {
 
 
-    var pattern="";
+    var result="";
 
-    for(let ch of word)
+ 
+
+    for(let i=0;i<word.length;i++)
     {
-        var char="";
-
-        pattern+=ch
-
-        char=ch
-
-        if(ch!=char)
+      
+        if(word.indexOf(word[i])==i)
         {
-
-            pattern+=ch
+            result+=word[i];
         }
-        return pattern
-
     }
+    return result;
 }
-console.log(removeDuplicate("hello"));
+console.log(removeDuplicate("banana"));
+
 
